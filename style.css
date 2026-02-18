@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("asset/body.png");
+    width: auto;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    width:auto;
+    height: 80px;
+    background-color: rgba(255, 174, 0, 0.37);
+    align-items: center;
+    box-shadow:10px 10px 10px rgba(255, 174, 0, 0.37) ;
+}
+
+ul, li{
+    display: flex;
+    margin-left: 30px;
+}
+ul, a{
+    text-decoration: none;
+}
+
+#home{
+    display: flex;
+    align-items: center;
+}
+#home, div{
+    width: auto;
+}
